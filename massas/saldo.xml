@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <usuarios id="1" nome="Usuário" email="email@email.com" senha="123" created_at="2018-05-23 19:03:38.747798"/>
+  <usuarios id="2" nome="Usuário Alternativo" email="email2@qualquer.com" senha="123" created_at="2018-05-23 19:03:38.77594"/>
+  <contas id="1" nome="Conta principal" usuario_id="1"/>
+  <contas id="2" nome="Conta Secundária" usuario_id="1"/>
+  <contas id="3" nome="Conta Usuário Alternativo" usuario_id="2"/>
+  <massas/>
+  <transacoes id="1" descricao="Transacao inicial" envolvido="Envolvido" tipo="REC" data_transacao="[hoje]" valor="2.00" status="true" conta_id="1" usuario_id="1"/>
+  <transacoes id="2" descricao="Transacao outro usuário" envolvido="Envolvido" tipo="REC" data_transacao="[hoje]" valor="4.00" status="true" conta_id="3" usuario_id="2"/>
+  <transacoes id="3" descricao="Transacao outra conta" envolvido="Envolvido" tipo="REC" data_transacao="[hoje]" valor="8.00" status="true" conta_id="2" usuario_id="1"/>
+  <transacoes id="4" descricao="Transacao pendente" envolvido="Envolvido" tipo="REC" data_transacao="[hoje]" valor="16.00" status="false" conta_id="1" usuario_id="1"/>
+  <transacoes id="5" descricao="Transacao passada" envolvido="Envolvido" tipo="REC" data_transacao="[ontem]" valor="32.00" status="true" conta_id="1" usuario_id="1"/>
+  <transacoes id="6" descricao="Transacao futura" envolvido="Envolvido" tipo="REC" data_transacao="[amanha]" valor="64.00" status="true" conta_id="1" usuario_id="1"/>
+  <transacoes id="7" descricao="Transacao despesa" envolvido="Envolvido" tipo="DESP" data_transacao="[hoje]" valor="-128.00" status="true" conta_id="1" usuario_id="1"/>
+  <transacoes id="8" descricao="Transacao da sorte" envolvido="Envolvido" tipo="REC" data_transacao="[hoje]" valor="256.00" status="true" conta_id="1" usuario_id="1"/>
+</dataset>

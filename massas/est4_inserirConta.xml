@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <usuarios id="1" nome="Dr. XML" email="usuario@email.com" senha="passwd" created_at="2018-05-22 19:32:55.350702"/>
+  <contas/>
+  <massas/>
+  <transacoes/>
+</dataset>

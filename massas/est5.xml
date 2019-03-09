@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <usuarios id="1" nome="Dr. XML" email="usuario@email.com" senha="passwd" conta_principal_id="1" created_at="2018-05-22 19:32:55.350702"/>
+  <contas id="1" nome="Conta para testes" usuario_id="1"/>
+  <contas id="2" nome="Conta CT005 alteracao" usuario_id="1"/>
+  <contas id="10" nome="Conta para deletar" usuario_id="1"/>
+  <massas/>
+  <transacoes/>
+</dataset>
